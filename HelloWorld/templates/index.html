@@ -1,0 +1,15 @@
+{% load static %}
+<!doctype HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="{% static 'css/main.css' %}">
+	</head>
+	<body>
+		<h1>Now is +{{ now_formated }} (UTC)。<h1>
+	</body>
+	<script type="text/javascript">
+		setTimeout(()=>{
+			location.reload()
+		}, 100)
+	</script>
+</html>
