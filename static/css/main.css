@@ -1,44 +1,65 @@
 .success {
-  color: #A6E22E; }
+  color: #A6E22E;
+}
 
 .failure {
-  color: #F92672; }
+  color: #F92672;
+}
 
 a {
-  color: #66D9EB; }
+  color: #66D9EB;
+}
 
 body {
   background-color: #272822;
-  color: #F8F8F2; }
+  color: #F8F8F2;
+}
 
 button {
   background-color: #272822;
-  color: #F8F8F2; }
+  color: #F8F8F2;
+}
 
-textarea, input {
+textarea,
+input {
   background-color: #373832;
-  color: #F8F8F2; }
+  color: #F8F8F2;
+}
 
-input[type="button"], input[type="submit"], button {
-  background-color: #141511; }
+input[type="button"],
+input[type="submit"],
+button {
+  background-color: #141511;
+}
 
 @font-face {
   font-family: "Recursive";
-  src: url(../fonts/Recursive.ttf); }
+  src: url(../fonts/Recursive.ttf);
+}
+
 @font-face {
   font-family: "UbuntuMono";
-  src: url(../fonts/UbuntuMono-Regular.ttf); }
+  src: url(../fonts/UbuntuMono-Regular.ttf);
+}
+
 @font-face {
   font-family: "HackMono";
-  src: url(../fonts/Hack-Regular.ttf); }
+  src: url(../fonts/Hack-Regular.ttf);
+}
+
 @font-face {
   font-family: "IBM 3270";
-  src: url(../fonts/3270.ttf); }
-* {
-  font-family: "IBM 3270", "HackMono", "UbuntuMono", "Hack", "Ubuntu Mono", "Consolas", "Monospace"; }
+  src: url(../fonts/3270.ttf);
+}
 
-code, code * {
-  font-family: "IBM 3270", "HackMono", "UbuntuMono", "Hack", "Ubuntu Mono", "Consolas", "Monospace"; }
+* {
+  font-family: "HackMono", "Hack", "IBM 3270", "Ubuntu Mono", "Consolas", "Monospace";
+}
+
+code,
+code * {
+  font-family: "HackMono", "Hack", "IBM 3270", "Ubuntu Mono", "Consolas", "Monospace";
+}
 
 code {
   display: block;
@@ -48,12 +69,14 @@ code {
   border-radius: 2px;
   -moz-box-shadow: inset 0 0 10px #000;
   box-shadow: inset 0 0 10px #000;
-  counter-reset: line; }
+  counter-reset: line;
+}
 
 code span.line_number {
   display: inline-block;
   line-height: 1.5rem;
-  width: 4rem; }
+  width: 4rem;
+}
 
 code span.line_number:before {
   counter-increment: line;
@@ -61,41 +84,53 @@ code span.line_number:before {
   display: inline-block;
   padding: 0 0.5em;
   margin-right: 0.5em;
-  color: #888; }
+  color: #888;
+}
 
-table, td {
+table,
+td {
   border-collapse: collapse;
-  border: #F8F8F2 2px solid; }
+  border: #F8F8F2 2px solid;
+}
 
 td {
-  padding: 10px; }
+  padding: 10px;
+}
 
 table tbody tr {
-  align-items: stretch !important; }
+  align-items: stretch !important;
+}
 
 .content-hidden content {
   display: none;
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 td.key {
-  text-align: left; }
+  text-align: left;
+}
 
 td.item table {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 td.item {
-  text-align: center; }
+  text-align: center;
+}
 
 td.item table {
   margin-left: 2px;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 td.value {
-  text-align: right; }
+  text-align: right;
+}
 
 td.value table {
   margin-left: auto;
-  margin-right: 2px; }
+  margin-right: 2px;
+}
 
 /*# sourceMappingURL=main.css.map */
