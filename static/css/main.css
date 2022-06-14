@@ -53,12 +53,12 @@ button {
 }
 
 * {
-  font-family: "HackMono", "Hack", "IBM 3270", "Ubuntu Mono", "Consolas", "Monospace";
+  font-family: "IBM 3270", "HackMono", "Hack", "Ubuntu Mono", "Consolas", "Monospace";
 }
 
 code,
 code * {
-  font-family: "HackMono", "Hack", "IBM 3270", "Ubuntu Mono", "Consolas", "Monospace";
+  font-family: "IBM 3270", "HackMono", "Hack", "Ubuntu Mono", "Consolas", "Monospace";
 }
 
 code {
